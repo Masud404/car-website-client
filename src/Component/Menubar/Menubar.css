@@ -1,0 +1,11 @@
+.nav-bar{
+    background-color: rgb(3, 3, 8);
+}
+.nav-item a{
+    padding:25px 20px;
+    font-weight: 500;
+    color: white;
+ }
+ .nav-item a:hover{
+     color: red;
+ }

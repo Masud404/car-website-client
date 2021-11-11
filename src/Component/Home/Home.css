@@ -1,0 +1,9 @@
+.bg-image{
+    background-image: url('../../images/bg_00.png');
+}
+.bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+}
