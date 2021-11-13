@@ -1,0 +1,27 @@
+.specail{
+    border-radius: 15px;
+    margin-left: 80px;
+}
+.specail-text{
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 60px;
+    width: 450px;
+    border-radius: 15px;
+    margin: 70px 0 0 0px;
+    box-shadow: 10px 20px 50px rgb(182, 178, 178);
+}
+.customer-offer{
+    height: 500px;
+    border-radius: 15px;
+}
+.customer-offer-text{
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 60px;
+    width: 450px;
+    border-radius: 15px;
+    margin: 70px -60px 0px 70px;
+    box-shadow: 10px 20px 50px rgb(182, 178, 178);
+    
+}

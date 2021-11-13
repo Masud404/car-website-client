@@ -10,11 +10,7 @@ import slider5 from '../../images/slider/img_17.jpg'
 
 const CarSlider = () => {
     return (
-        <div>
-            <Container>
-                <h1 className="fw-bold mt-5">Comming Soon...</h1>
-                <p className="fw-bold">Our New Best Cars.</p>
-            </Container>
+        <div className="my-5 py-5">
             <Carousel className="slider">
                 <Carousel.Item>
                     <img
@@ -23,6 +19,7 @@ const CarSlider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
+                        <h1 className="fw-bold mb-5">Comming Soon...</h1>
                         <h3>Honda Accord Turbo</h3>
                         <p>The Honda Accord Turbo has a perfect blend of elegance and fun.</p>
                     </Carousel.Caption>
@@ -35,6 +32,7 @@ const CarSlider = () => {
                     />
 
                     <Carousel.Caption>
+                        <h1 className="fw-bold mb-5">Comming Soon...</h1>
                         <h3>Honda Civic Turbo</h3>
                         <p>The Honda Accord Turbo has a perfect blend of elegance and fun.</p>
                     </Carousel.Caption>
@@ -47,6 +45,7 @@ const CarSlider = () => {
                     />
 
                     <Carousel.Caption>
+                        <h1 className="fw-bold mb-5">Comming Soon...</h1>
                         <h3>Honda CR-V Turbo</h3>
                         <p>The Honda Accord Turbo has a perfect blend of elegance and fun.</p>
                     </Carousel.Caption>
@@ -59,6 +58,7 @@ const CarSlider = () => {
                     />
 
                     <Carousel.Caption>
+                        <h1 className="fw-bold mb-5">Comming Soon...</h1>
                         <h3>Nissan X-trail</h3>
                         <p>The Honda Accord Turbo has a perfect blend of elegance and fun.</p>
                     </Carousel.Caption>
@@ -71,6 +71,7 @@ const CarSlider = () => {
                     />
 
                     <Carousel.Caption>
+                        <h1 className="fw-bold mb-5">Comming Soon...</h1>
                         <h3>Honda CR-V Turbo</h3>
                         <p>The Honda Accord Turbo has a perfect blend of elegance and fun.</p>
                     </Carousel.Caption>

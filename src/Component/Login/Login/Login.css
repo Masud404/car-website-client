@@ -1,0 +1,37 @@
+.login-bg{
+    background-image: url('../../../images/login/computer-1867758_1920-min.jpg');
+}
+.login-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-from-size{
+    width: 60%;
+    margin: auto;
+}
+
+.login-container{
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+.google-signin{
+    background-color: rgba(38, 43, 72, 0.92);
+}
+.email-signin{
+    background-color: white;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid gainsboro;
+    width: 300px;
+}
+.input-submit{
+    width: 300px;
+    border: none;
+    background-color: rgb(72, 72, 240);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
