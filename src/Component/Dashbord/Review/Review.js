@@ -25,7 +25,7 @@ const Review = () => {
 
     const handleOnSubmit = e => {
 
-        fetch('http://localhost:5000/review', {
+        fetch('https://salty-temple-68876.herokuapp.com/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

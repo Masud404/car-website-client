@@ -9,7 +9,7 @@ const MyOrders = () => {
     const [list, setList] = useState([])
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders/${id}`
+        const url = `https://salty-temple-68876.herokuapp.com/orders/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setList(data))
@@ -17,7 +17,7 @@ const MyOrders = () => {
 
     // delete button
     const handleDelete = name => {
-        const url = `http://localhost:5000/orders/${name}`
+        const url = `https://salty-temple-68876.herokuapp.com/orders/${name}`
         fetch(url, {
             method: 'DELETE'
         })

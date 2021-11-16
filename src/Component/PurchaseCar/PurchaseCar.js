@@ -13,7 +13,7 @@ const PurchaseCar = () => {
     const [purchase, setPurchase] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/car')
+        fetch('https://salty-temple-68876.herokuapp.com/car')
             .then(res => res.json())
             .then(data => setPurchase(data))
     }, [])
@@ -28,7 +28,7 @@ const PurchaseCar = () => {
         data.order = purchases?.name;
 
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://salty-temple-68876.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
