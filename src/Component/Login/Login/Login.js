@@ -5,7 +5,7 @@ import logo from '../../../images/login/brand-logo-white.png'
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth/useAuth';
 
-
+// login section
 
 const Login = () => {
     const { user, signInUsingGoogle, loginUser, isLoading, error } = useAuth();
@@ -36,6 +36,7 @@ const Login = () => {
 
     return (
         <div className="login-bg">
+            {/* login section */}
             <Container className="login-container">
                 <div className="login-from-size">
 

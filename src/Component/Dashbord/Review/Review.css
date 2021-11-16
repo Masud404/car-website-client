@@ -1,0 +1,25 @@
+/* review */
+.review-form input{
+    display: block;
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 300px;
+    border: 2px solid gray;
+    padding: 10px;
+
+}
+.massage{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 500px;
+    border: 2px solid gray;
+}
+
+/* review - input */
+
+.review-input{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+}

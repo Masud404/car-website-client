@@ -5,6 +5,8 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth/useAuth';
 
 
+// sign in section
+
 const SignUp = () => {
     const { user, signInUsingGoogle, registerUser, isLoading, error } = useAuth();
     const [loginData, setLoginData] = useState({});
@@ -33,6 +35,7 @@ const SignUp = () => {
     }
 
     return (
+        // sign in
         <div className="login-bg">
             <Container className="login-container">
                 <div className="login-from-size">

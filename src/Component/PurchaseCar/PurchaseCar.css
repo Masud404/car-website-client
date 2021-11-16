@@ -1,0 +1,21 @@
+.purchase-form{
+    margin: 50px 130px;
+}
+
+.purchase-form input {
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 2px solid rgb(35, 38, 56);
+    border-radius: 5px;
+    width: 300px;
+}
+
+.purchase-button{
+    background-color: rgb(58, 73, 116);
+    color: white;
+    font-weight: 500;
+}
+.error{
+    color: red;
+}

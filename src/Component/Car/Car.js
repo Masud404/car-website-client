@@ -6,7 +6,7 @@ import './Car.css'
 const Car = () => {
     const [car, setCars] = useState([]);
     useEffect(() => {
-        fetch('data.json')
+        fetch('http://localhost:5000/car')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])

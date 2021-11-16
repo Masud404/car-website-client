@@ -5,6 +5,7 @@ import logo from '../../images/logo_02_1x.png'
 
 const Footer = () => {
     return (
+        // footer section 
         <div className="footer">
             <Container className="mt-5 pt-5">
                 <Row className="pt-5">
@@ -15,6 +16,7 @@ const Footer = () => {
                         <p className="footer-text"><i class="fas fa-angle-right"></i> F.A.Q</p>
                         <input className="footer-input" type="search" name="" placeholder="search" id="" /><i class="fas fa-search"></i>
                     </Col>
+                    {/* contact use section */}
                     <Col sm={12} md={4} className="text-center">
                         <h4 className="fw-bold mb-4">Contact Us:</h4>
                         <h6 className="fw-bold"><i class="fas fa-map-marker-alt"></i> Main Office Address:</h6>
@@ -26,6 +28,7 @@ const Footer = () => {
                         <p className="mt-3 fw-bold footer-text"><i class="fas fa-envelope"></i> masud215502@gmail.com</p>
                         <p className="fw-bold footer-text"><i class="fas fa-phone"></i> +08801929039442</p>
                     </Col>
+                    {/* information section */}
                     <Col sm={12} md={4} className="text-center fw-bold ">
                         <h4 className="mb-4 fw-bold">Information:</h4>
                         <p className="footer-text"><i class="fas fa-angle-right"></i> Cars Catalog</p>

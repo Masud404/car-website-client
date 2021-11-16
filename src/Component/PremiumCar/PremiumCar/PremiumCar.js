@@ -10,10 +10,11 @@ import partner3 from '../../../images/special/7-manu_default.jpg'
 
 const PremiumCar = () => {
     return (
+        // premium section
         <div className="my-5 py-5">
             <Container>
                 <Row className="mb-5 pb-5">
-                    <h1 className="fw-bold text-secondary text-center">Our Partners</h1>
+                    <h3 className="fw-bold text-secondary text-center">Our Partners</h3>
                     <Col sm={2} md={2}>
                         <img src={partner} alt="" />
                     </Col>
@@ -33,6 +34,7 @@ const PremiumCar = () => {
                         <img src={partner2} alt="" />
                     </Col>
                 </Row>
+                {/* specail offer section */}
                 <Row>
                     <Col sm={12} md={6}>
                         <img className="img-fluid specail" src={specail} alt="" />
@@ -45,10 +47,10 @@ const PremiumCar = () => {
                         <button className="btn btn-danger mt-5 fw-bold">Details</button>
                     </Col>
                 </Row>
-
+                {/* specail offer section */}
                 <Row className="mt-5 pt-5">
                     <Col sm={12} md={6} className="customer-offer-text text-center">
-                        <h2 className="fw-bold text-secondary">OUR <br /> Specaial Winter <br /> Offer</h2>
+                        <h2 className="fw-bold text-secondary">OUR <br /> Specaial Summer <br /> Offer</h2>
                         <p className="fw-bold text-danger mt-4">Summer Offer</p><br />
                         <small className="fw-bold text-secondary">Our company was built by trust and reputation. We know how to make our customers love us by our high quality products with affordable prices. We promise to make you have the interesting experiences.</small><br></br>
                         <button className="btn btn-danger mt-5 fw-bold">Buy Now</button>

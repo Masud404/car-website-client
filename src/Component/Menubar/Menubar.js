@@ -5,6 +5,7 @@ import logo from '../../images/logo_01_1.png'
 import { Link } from 'react-router-dom';
 import useAuth from './../../hooks/useAuth/useAuth';
 
+
 const Menubar = () => {
     const { user, logout } = useAuth();
     return (
@@ -26,13 +27,15 @@ const Menubar = () => {
                     <Navbar.Collapse className="justify-content-end nav-item">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/ourcar">Our Cars</Nav.Link>
-                        <Nav.Link as={Link} to="">Reviews</Nav.Link>
-                        <Nav.Link as={Link} to="">About</Nav.Link>
-                        <Nav.Link as={Link} to="">Contact Us</Nav.Link>
+                        {
+                            user.email && <Nav.Link className="text-danger" as={Link} to="/dashbord">Dashbord</Nav.Link>
+                        }
+
                         {
                             user.email ? <button onClick={logout} className="btn btn-danger fw-bold me-2">Sign Out</button> :
                                 <Nav.Link as={Link} to="/login">SignIn</Nav.Link>
                         }
+
                         <Navbar.Text>
                             Signed in as: <a className="text-danger">{user?.displayName}</a>
                         </Navbar.Text>

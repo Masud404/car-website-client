@@ -10,6 +10,7 @@ import slider5 from '../../images/slider/img_17.jpg'
 
 const CarSlider = () => {
     return (
+        // carslider-section
         <div className="my-5 py-5">
             <Carousel className="slider">
                 <Carousel.Item>

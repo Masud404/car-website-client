@@ -1,8 +1,9 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const AllCars = ({ car }) => {
-    const { name, img, price, enginetype, description } = car;
+    const { name, img, price, enginetype, description, _id } = car;
     return (
         <div>
             {/* all card section */}
@@ -20,7 +21,9 @@ const AllCars = ({ car }) => {
 
                         <small>{description}</small><br />
 
-                        <button className="buy-now-button mt-3">Buy Now</button>
+                        <Link to={`/purchasecar/${_id}`}>
+                            <button className="buy-now-button mt-3">Buy Now</button>
+                        </Link>
                     </Card.Body>
                 </Card>
             </Col>

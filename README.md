@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# ROTORS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Client Side Github Link
 
-## Available Scripts
+## Server Side Github Link
 
-In the project directory, you can run:
+## Live Site Link
 
-### `npm start`
+### Discription
+In order to drive your car safely, you have to have a reliable braking system. Modern vehicles use several components in conjunction with one another to successfully slow and stop moving cars, especially when they travel at high speeds.Brake rotors are used alongside other braking components to slow and stop your vehicle. Without brake rotors, your vehicle would not be able to stop safely or slow down after acceleration, aside from gradual slowing due to friction with the air and the road itself.
+Your vehicle also has brake pads that clamp down on your wheels to stop them from spinning. For context, the rotors are the surfaces those pads press down upon. They are typically made of iron, so they maintain long-term durability. But although they are durable by default, brake rotors still require maintenance and replacement from time to time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1. Brake rotors begin working as soon as you step on your brake pedal. When you depress your brake pedal, the brake pads compress against the rotors. Keep in mind; there’s one rotor installed per wheel on your car. When you brake, all four wheels slow down in unison.
 
-### `npm test`
+### 2 . As the brake pads press down on the brake rotors, friction is applied, which progressively slows down the rotation of your car’s wheels (provided you are not still pressing down on the accelerator). The process of slowing your wheels through friction naturally creates intense heat.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3 . Drilled rotors have a series of holes drilled in spiraling patterns across the surface. The holes assist with heat dissemination and allow dust and water to escape the rotor’s surface without clogging or damaging the overall braking system.
 
-### `npm run build`
+### 4 . Slotted rotors have special slots positioned around the exterior rotor surface instead of holes. Slotted rotors are often used with heavy-duty trucks and heavy SUVs, as these larger and heavier vehicles typically require more stopping power. Slotted rotors are also preferred for individuals who use their cars to tow heavy loads frequently.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5 . Brake rotors are important components in your car’s overall braking system. Be sure to pay attention to how they perform and how responsive your braking action is so you can replace them when necessary. Don’t hesitate to ask a mechanic which rotor type is best for your vehicle and driving habits when picking out new rotors.

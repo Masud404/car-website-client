@@ -1,3 +1,4 @@
+/* login */
 .login-bg{
     background-image: url('../../../images/login/computer-1867758_1920-min.jpg');
 }
@@ -12,10 +13,12 @@
     margin: auto;
 }
 
+/* login container */
 .login-container{
     padding-top: 200px;
     padding-bottom: 300px;
 }
+/* google signin */
 .google-signin{
     background-color: rgba(38, 43, 72, 0.92);
 }
@@ -27,6 +30,7 @@
     border-bottom: 2px solid gainsboro;
     width: 300px;
 }
+/* input submit */
 .input-submit{
     width: 300px;
     border: none;
